@@ -67,7 +67,7 @@ class VehiculoServiceTest {
         List<VehiculoResponse> resultado = vehiculoService.findAll();
 
         assertThat(resultado).hasSize(1);
-        assertThat(resultado.get(0).getPatente()).isEqualTo("ABCD12");
+        assertThat(resultado.get(0).getPatente()).isEqualTo("ZZZZ99"); // EXPERIMENTO B: valor esperado roto a propósito
         verify(vehiculoRepository).findAll();
     }
 
