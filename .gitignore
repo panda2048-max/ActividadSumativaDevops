@@ -1,0 +1,4 @@
+# Artefactos descargados de GitHub Actions (no se versionan)
+snyk-report/
+jacoco-report/
+app-jar/
