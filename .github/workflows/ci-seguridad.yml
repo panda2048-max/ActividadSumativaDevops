@@ -114,7 +114,8 @@ jobs:
             -Dsonar.projectKey=panda2048-max_ActividadSumativaDevops \
             -Dsonar.organization=panda2048-max \
             -Dsonar.host.url=https://sonarcloud.io \
-            -Dsonar.token=${SONAR_TOKEN}
+            -Dsonar.token=${SONAR_TOKEN} \
+            -Dsonar.qualitygate.wait=true
 
   # 4. Empaquetado final de la aplicación
   build:
